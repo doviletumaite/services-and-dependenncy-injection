@@ -1,6 +1,6 @@
 export class UserService {
-  activeUsers = ['Max', 'Anna'];
-  inactiveUsers = ['Chris', 'Manu']
+  activeUsers = ['Max', 'Anna','Gigi', 'Bob'];
+  inactiveUsers = ['Chris', 'Manu', 'Will', 'Berrz']
 
   setToActive(id: number){
     this.activeUsers.push(this.inactiveUsers[id])
