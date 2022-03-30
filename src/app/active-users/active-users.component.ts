@@ -11,7 +11,7 @@ export class ActiveUsersComponent implements OnInit {
   constructor(private usersService: UserService) {}
 
   ngOnInit(): void {
-    this.users = this.usersService.inactiveUsers;
+    this.users = this.usersService.activeUsers;
   }
 
   onSeToInactive(id: number) {

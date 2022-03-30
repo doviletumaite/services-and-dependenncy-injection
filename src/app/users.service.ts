@@ -8,7 +8,7 @@ export class UserService {
   }
 
   setToInactive(id: number){
-    this.inactiveUsers.push(this.inactiveUsers[id])
+    this.inactiveUsers.push(this.activeUsers[id])
     this.activeUsers.splice(id, 1)
   }
 }
